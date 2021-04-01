@@ -4,6 +4,12 @@
 
 Method | Route | Description
 ----- |------|---------
+GET | `/articlesearch/:begin_date/:end_date/:fq/:page/:query/:sort` | Use the Article Search API to look up articles by keyword. You can refine your search using filters and facets. [Link to NY Times docs](https://developer.nytimes.com/docs/articlesearch-product/1/overview)
+
+## Methods and Routes for [Top Stories NY Times API](https://developer.nytimes.com/docs/top-stories-product/1/overview)
+
+Method | Route | Description
+----- |------|---------
 GET | `/topstories/:section` | The Top Stories API returns an array of articles currently on the specified section (arts, business, ...). [Link to NY Times docs](https://developer.nytimes.com/docs/top-stories-product/1/overview)
 
 ## Methods and Routes for [Most Popular NY Times API](https://developer.nytimes.com/docs/most-popular-product/1/overview)

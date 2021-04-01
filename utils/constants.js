@@ -8,6 +8,7 @@ const TOP_STORIES_URL = '/topstories/v2';
 const MOST_POPULAR_URL = '/mostpopular/v2';
 const BOOKS_BEST_SELLERS_LISTS_URL = '/books/v3/lists';
 const MOVIE_CRITICS_URL = '/movies/v2/critics';
+const MOVIE_REVIEWS_URL = '/movies/v2/reviews';
 
 
 const INTERNAL_SERVER_ERROR_MSG = 'An error occurred on the server';
@@ -21,4 +22,5 @@ module.exports = {
   MOST_POPULAR_URL,
   BOOKS_BEST_SELLERS_LISTS_URL,
   MOVIE_CRITICS_URL,
+  MOVIE_REVIEWS_URL,
 };

@@ -23,7 +23,7 @@ const getBooksBestSellersListsNames = (req, res, next) => {
 };
 
 const getBooksBestSellersListByDate = (req, res, next) => {
-  return fetch(`${NY_TIMES_API_BASE_URL}${BOOKS_BEST_SELLERS_LISTS_URL}/${req.params.date}/${req.params.list}.json?api-key=${NY_TIMES_API_KEY}`)
+  return fetch(`${NY_TIMES_API_BASE_URL}${BOOKS_BEST_SELLERS_LISTS_URL}/${req.params.date}/${req.params.list}.json?${req.params.offset}&api-key=${NY_TIMES_API_KEY}`)
     .then((response) => {
       const data = response.json();
       return data;
